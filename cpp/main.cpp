@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include "../headers/Publicacion.h"
+#include "../headers/ArchivoPublicaciones.h"
 using namespace std;
 
 class Libro: public Publicacion
@@ -60,7 +61,27 @@ class Libreria{
 };
 int main()
 {
-   Libreria obj;
-   Publicacion reg;
-   obj::agregarPublicacion()
+    char titulo[40];
+    char autor[20];
+    int anio;
+    int opc;
+    ArchivoPublicaciones archiPub("publicaciones.dat");
+    cout<<"Ingrese Titulo: ";
+    cin>>titulo;
+    cout<<"Ingrese Autor: ";
+    cin>>autor;
+    cout<<"Ingrese Anio: ";
+    cin>>anio;
+    Publicacion obj(titulo,autor,anio);
+    obj.mostrar();
+    cout<<"Desea guardar el registro? 1=Si/2=No"<<endl;
+    cin>>opc;
+    if(opc==1){
+       if(archiPub.grabarRegistro(obj)){
+        cout<<"Registro guardado correctamente!"<<endl;
+       }
+    }
+    Publicacion reg;
+    reg=archiPub.leerRegistro(0);
+    reg.mostrar();
 }

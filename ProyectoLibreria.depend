@@ -11,3 +11,22 @@
 	<cstring>
 	"../headers/Publicacion.h"
 
+1719935334 source:c:\users\kanne\onedrive\escritorio\facu\lab 2\github proyecto\prueba\cpp\publicacion.cpp
+	<iostream>
+	"../headers/Publicacion.h"
+
+1719935143 c:\users\kanne\onedrive\escritorio\facu\lab 2\github proyecto\prueba\headers\publicacion.h
+	<cstring>
+
+1719946460 source:c:\users\kanne\onedrive\escritorio\facu\lab 2\github proyecto\prueba\cpp\main.cpp
+	<iostream>
+	<cstring>
+	"../headers/Publicacion.h"
+
+1719947460 source:c:\users\kanne\onedrive\escritorio\facu\lab 2\github proyecto\prueba\archivopublicaciones.cpp
+	<iostream>
+	"headers/Publicacion.h"
+	"headers/ArchivoPublicaciones.h"
+
+1719947151 c:\users\kanne\onedrive\escritorio\facu\lab 2\github proyecto\prueba\headers\archivopublicaciones.h
+
