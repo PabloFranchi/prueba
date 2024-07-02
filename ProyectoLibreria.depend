@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1719935334 source:c:\users\kanne\onedrive\escritorio\facu\prog 2\ejercicio de archivos\proyectolibreria\cpp\publicacion.cpp
+	<iostream>
+	"../headers/Publicacion.h"
+
+1719935143 c:\users\kanne\onedrive\escritorio\facu\prog 2\ejercicio de archivos\proyectolibreria\headers\publicacion.h
+	<cstring>
+
+1719935297 source:c:\users\kanne\onedrive\escritorio\facu\prog 2\ejercicio de archivos\proyectolibreria\cpp\main.cpp
+	<iostream>
+	<cstring>
+	"../headers/Publicacion.h"
+
